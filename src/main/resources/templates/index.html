@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Inventory home page</title>
+</head>
+<body>
+<div align="center"><h1>welcome to inventory app</h1>
+<div>
+    <a th:href="@{/categories}"><h2>list categories</h2></a>
+    <a th:href="@{/categories/new}"><h2>create category</h2></a>
+</div>
+    <div>
+        <a th:href="@{/products}"><h2>List Products</h2></a>
+    </div>
+    <div>
+        <a th:href="@{/products/new}"><h2>Create Product</h2></a>
+    </div>
+</div>
+
+</body>
+</html>
